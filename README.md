@@ -1,50 +1,40 @@
-# GoShoe Inventory System
+# Cloth Store Management Project
 
-![GoShoe Logo](assets/goshoe_logo.png)
+This project is a cloth store management system developed using Python, MySQL, and Tkinter. It provides a user-friendly interface for managing customer data, product information, stock inventory, and billing operations. The project integrates with a MySQL database in MySQL Workbench to store and retrieve data efficiently.
 
-A modern footwear inventory management application built with Python, combining traditional tkinter with customtkinter for an enhanced user experience.
+## Technologies Used
 
-## 🚧 Project Status: Work In Progress 🚧
+- Python: Programming language used for developing the project.
+- MySQL: Relational database management system used for storing and managing data.
+- Tkinter: Python library used for creating the graphical user interface.
 
-This project is currently under active development. Core features are being implemented, and the system is not yet ready for production use. Contributions and feedback are welcome!
+## Key Features
 
-## Overview
+- Customer Management: Allows adding, searching, viewing, and updating customer details.
+- Product Management: Enables adding, searching, viewing, and updating product information.
+- Stock Management: Tracks and manages the stock inventory, including stock availability and quantity.
+- Billing Operations: Provides functionality for generating bills and maintaining billing records.
 
-GoShoe Inventory System is a lightweight yet powerful solution designed specifically for footwear retailers to track, manage, and analyze their shoe inventory. The application leverages the reliability of tkinter while incorporating customtkinter's modern UI components to deliver a visually appealing and user-friendly interface.
+## Installation and Setup
 
-## Features (Planned/In Progress)
+1. Clone the repository: https://github.com/kamathamkiran/Cloth-Store-Management-System.git
+2. Install the required dependencies: `pip install -r requirements.txt`
+3. Create a MySQL database and import the provided SQL file.
+4. Update the database connection settings in the configuration file.
+5. Run the application: `python login.py`
 
-- **Clean, Modern UI**: Utilizes customtkinter's enhanced widgets and styling capabilities alongside traditional tkinter components
-- **Comprehensive Inventory Management**: Add, edit, delete, and search shoe products with ease
-- **Stock Tracking**: Monitor inventory levels with visual indicators for low stock items
-- **Basic Reporting**: Generate simple inventory reports and sales summaries
-- **User Authentication**: Secure login system with basic role management
-- **MySQL Database Integration**: Robust data storage with MySQL backend
+## Usage
 
-## Tech Stack
+- Initially, Connect you project with your mysql workbench of your desktop.
+- On running the login.py file, you will observe a option connect to database. Clicking on it, you will see a window asking for login credentials. On correct 
+  details your database connection to mySQL workbench will be successful.
+- So, after successful connection the main window will be displayed with various options for managing customers, products, stock, and billing.
+- Use the respective menu options or buttons to perform CRUD operations on the database tables.
+- The interface provides user-friendly forms and input fields to enter and update data.
+- The data is stored and retrieved from the MySQL database, ensuring data integrity and efficient management.
 
-- Python 3.7+
-- tkinter (standard GUI toolkit)
-- customtkinter (modern UI components)
-- MySQL (database)
-- mysql-connector-python (MySQL connector)
+## Contribution
 
-## Installation
-
-### Prerequisites
-
-- Python 3.7 or higher
-- MySQL Server installed and running
-- Git (optional, for cloning the repository)
+Contributions are welcome! If you find any bugs or have suggestions for improvements, please create an issue or submit a pull request.
 
 
-### Install required packages 
-
-- pip install -r requirements.txt
-
-### Setup Steps
-
-1. Clone the repository (or download the ZIP file):
-```bash
-git clone https://github.com/yourusername/goshoe-inventory.git
-cd goshoe-inventory
